@@ -8,7 +8,7 @@ default:
         - Drupal\DrupalExtension\Context\MessageContext
         - Drupal\DrupalExtension\Context\DrushContext
         - Drupal\DrupalExtension\Context\MarkupContext
-        - IntegratedExperts\BehatScreenshotExtension\Context\ScreenshotContext        
+        - DrevOps\BehatScreenshotExtension\Context\ScreenshotContext        
         - FeatureContext
       paths:
         features:                 '%paths.base%/tests/behat/features'
@@ -46,7 +46,7 @@ default:
         content:                  '#content'
         footer:                   '.region.region-footer'
         header:                   '#header'
-    IntegratedExperts\BehatScreenshotExtension:
+    DrevOps\BehatScreenshotExtension:
       dir:                        '%paths.base%/tests/behat/screenshots'
       fail:                       true
       purge:                      false        
